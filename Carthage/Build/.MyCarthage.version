@@ -1,0 +1,20 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.1",
+  "iOS" : [
+    {
+      "hash" : "6608000b90b94590bb125a8999c9a27efce134c210ca21848ffbea6ed90e69bd",
+      "name" : "MyCarthage",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+    }
+  ]
+}

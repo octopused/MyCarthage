@@ -1,0 +1,32 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.28)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk
+iPhoneOS14.3.sdk
+/Users/r.mingazov/Library/Developer/Xcode/DerivedData/MyCarthage-ajnorzlblhdyaqeogbxqkekhgrci/Build/Intermediates.noindex/ArchiveIntermediates/MyCarthage/IntermediateBuildFilesPath/MyCarthage.build/Release-iphoneos/MyCarthage.build/DerivedSources/MyCarthage_vers.c
+/Users/r.mingazov/XcodeProjects/MyCarthage
+_symbolic $s10MyCarthage0aB8ProtocolP
+_$s10MyCarthage0aB8Protocol_pMF
+_$s10MyCarthageMXM
+__swift_FORCE_LOAD_$_swiftFoundation_$_MyCarthage
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_MyCarthage
+__swift_FORCE_LOAD_$_swiftDarwin_$_MyCarthage
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_MyCarthage
+__swift_FORCE_LOAD_$_swiftDispatch_$_MyCarthage
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_MyCarthage
+___swift_reflection_version
+<swift-imported-modules>
+Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+/Users/r.mingazov/XcodeProjects/MyCarthage/MyCarthage/MyCarthageProtocol.swift
+_$s10MyCarthage0aB5ClassCAA0aB8ProtocolA2aDP4someyyFTW
+__METACLASS_DATA__TtC10MyCarthage15MyCarthageClass
+__DATA__TtC10MyCarthage15MyCarthageClass
+_$s10MyCarthage0aB5ClassCMf
+_symbolic _____ 10MyCarthage0aB5ClassC
+_$s10MyCarthage0aB5ClassCMF
+_objc_classes
+_$s10MyCarthage0aB5ClassCACycfCTq
+/Users/r.mingazov/XcodeProjects/MyCarthage/MyCarthage/MyCarthageClass.swift
+$s10MyCarthage0aB5ClassCMa
+<compiler-generated>
+some
+deinit

@@ -1,0 +1,11 @@
+framework module MyCarthage {
+  umbrella header "MyCarthage.h"
+
+  export *
+  module * { export * }
+}
+
+module MyCarthage.Swift {
+    header "MyCarthage-Swift.h"
+    requires objc
+}
