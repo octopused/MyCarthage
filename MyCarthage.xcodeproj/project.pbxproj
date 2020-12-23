@@ -10,6 +10,8 @@
 		7ED755C9259221E30080C373 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED755BF259221E30080C373 /* MyCarthage.framework */; };
 		7ED755CE259221E30080C373 /* MyCarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED755CD259221E30080C373 /* MyCarthageTests.swift */; };
 		7ED755D0259221E30080C373 /* MyCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED755C2259221E30080C373 /* MyCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED755E5259222320080C373 /* MyCarthageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED755E4259222320080C373 /* MyCarthageProtocol.swift */; };
+		7ED755EB2593164B0080C373 /* MyCarthageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED755EA2593164B0080C373 /* MyCarthageClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		7ED755C8259221E30080C373 /* MyCarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarthageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED755CD259221E30080C373 /* MyCarthageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarthageTests.swift; sourceTree = "<group>"; };
 		7ED755CF259221E30080C373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED755E4259222320080C373 /* MyCarthageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarthageProtocol.swift; sourceTree = "<group>"; };
+		7ED755EA2593164B0080C373 /* MyCarthageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarthageClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				7ED755C2259221E30080C373 /* MyCarthage.h */,
 				7ED755C3259221E30080C373 /* Info.plist */,
+				7ED755E4259222320080C373 /* MyCarthageProtocol.swift */,
+				7ED755EA2593164B0080C373 /* MyCarthageClass.swift */,
 			);
 			path = MyCarthage;
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 				TargetAttributes = {
 					7ED755BE259221E30080C373 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					7ED755C7259221E30080C373 = {
 						CreatedOnToolsVersion = 12.3;
@@ -194,6 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED755E5259222320080C373 /* MyCarthageProtocol.swift in Sources */,
+				7ED755EB2593164B0080C373 /* MyCarthageClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +350,7 @@
 		7ED755D4259221E30080C373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2P4458WF47;
@@ -357,6 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ruslan.MyCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +376,7 @@
 		7ED755D5259221E30080C373 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2P4458WF47;
@@ -389,6 +401,7 @@
 		7ED755D7259221E30080C373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P4458WF47;
 				INFOPLIST_FILE = MyCarthageTests/Info.plist;
@@ -407,6 +420,7 @@
 		7ED755D8259221E30080C373 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P4458WF47;
 				INFOPLIST_FILE = MyCarthageTests/Info.plist;
